@@ -12,7 +12,6 @@
 
 .carousel .carousel__item--visible {
     display: block;
-    animation: fadeVisibility 0.5s;
 }
 
 .carousel .carousel__actions {
@@ -41,14 +40,4 @@
 
 .carousel .carousel__actions button[data-js="carousel__button--next"] {
     margin-right: 20px;
-}
-
-@keyframes fadeVisibility {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-        transform: opacity linear;
-    }
 }
